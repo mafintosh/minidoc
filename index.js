@@ -14,7 +14,7 @@ module.exports = function html (name, opts = {}, children = []) {
     else element.setAttribute(name, v)
   }
   for (const child of children) {
-    element.appendChild(typeof child === 'string' ? document.createTextNode(child) : child)
+    element.appendChild((!child || typeof child === 'string') ? document.createTextNode(child || '') : child)
   }
   return element
 }
