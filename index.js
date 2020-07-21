@@ -13,8 +13,9 @@ module.exports = function html (name, opts = {}, children = []) {
     if (typeof v === 'function') element.addEventListener(name.replace(/^on/, ''), v)
     else element.setAttribute(name, v)
   }
-  for (const child of children) {
-    element.appendChild((!child || typeof child === 'string') ? document.createTextNode(child || '') : child)
+  for (let child of children) {
+    if (typeof child !== 'object' || !child) child = document.createTextNode('' + (child || ''))
+    element.appendChild(child)
   }
   return element
 }
