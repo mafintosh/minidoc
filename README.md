@@ -1,9 +1,9 @@
-# minihtml
+# minidoc
 
 Tiny dom generator module
 
 ```
-npm install minihtml
+npm install minidoc
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm install minihtml
 Just a little function to avoid all the `document.createElement` boilerplate.
 
 ``` js
-const h = require('minihtml')
+const h = require('minidoc')
 
 h('div', { class: 'someClass', onclick: () => { console.log('clicked it')}}, [
   'a text node',

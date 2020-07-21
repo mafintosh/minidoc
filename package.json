@@ -1,5 +1,5 @@
 {
-  "name": "minihtml",
+  "name": "minidoc",
   "version": "1.0.0",
   "description": "Tiny dom generator module",
   "main": "index.js",
@@ -7,12 +7,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/minihtml.git"
+    "url": "https://github.com/mafintosh/minidoc.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/minihtml/issues"
+    "url": "https://github.com/mafintosh/minidoc/issues"
   },
-  "homepage": "https://github.com/mafintosh/minihtml"
+  "homepage": "https://github.com/mafintosh/minidoc"
 }
