@@ -1,6 +1,6 @@
 {
   "name": "minidoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny dom generator module",
   "main": "index.js",
   "dependencies": {},
